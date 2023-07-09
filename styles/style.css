@@ -9,7 +9,7 @@ body{
     color:#181818;
     text-align: center;
     font-size: 35px;
-    font-weight: 700;
+    font-weight: bold;
 }
 /* nav releated styles */
 
@@ -23,7 +23,7 @@ nav{
 
 .nav-title_{
     color: #181818;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -31,6 +31,7 @@ nav{
 
 .span{
     color: #FD6E0A;
+    
 
 }
 
@@ -119,6 +120,12 @@ margin-top: 25px;
 
 /* main section style */
 
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
 /* about section style */
 
 .about{
@@ -126,6 +133,18 @@ margin-top: 25px;
     border-radius: 30px;
     background: #FFF8F3;
     font-size: 35px;
+    margin: 130px 50px;
+}
+
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px; 
+}
+
+.about-info{
+    text-align: center;
 }
 .section-title {
     color: #181818;
